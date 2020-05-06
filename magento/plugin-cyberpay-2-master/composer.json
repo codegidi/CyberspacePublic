@@ -1,0 +1,17 @@
+{
+  "name": "pstk/paystack-magento2-module",
+  "description": "Paystack integration for Magento 2",
+  "require": {
+    "yabacon/paystack-php": "2.*"
+  },
+  "type": "magento2-module",
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Pstk\\Paystack\\": ""
+    }
+  }
+}

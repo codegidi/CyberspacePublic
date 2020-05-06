@@ -1,0 +1,18 @@
+{% if not cp_error %}
+
+<form>
+  <div class="buttons">
+    <div class="pull-right">
+    <a href="{{cp_redirectUrl}}">
+      <input type="button" value="{{button_confirm}}" class="btn btn-primary" />
+    </a>
+    </div>
+  </div>
+</form>
+{% else %}
+{{ cp_errorDetail }}
+{% endif %}
+
+
+
+
